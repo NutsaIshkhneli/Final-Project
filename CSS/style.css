@@ -25,7 +25,7 @@ li {
     margin-right: 30px;
 }
 li a {
-    color: #fff;
+    color: white;
     font-family: 'Akaya Telivigala', cursive;
     font-size: 25px;
 }
@@ -53,3 +53,98 @@ h1 {
     padding-right: 230px;
     font-family: 'Akaya Telivigala', cursive;
 }
+
+.h2 {
+    display: flex;
+    width: 1280px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.specials {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 40px;
+    color: black;
+}
+
+.specials::after {
+    content: ' ';
+	width: 200px;
+	height: 4px;
+	background-color: red;
+	display: flex;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 1280px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    background-color: white ;
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.pasta {
+    color: black;
+    font-size: 25px;
+    font-family: 'Akaya Telivigala', cursive;
+    padding-bottom: 5px;
+}
+
+.pasta-text {
+    color: grey;
+    font-size: 15px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 1280px;
+}
+
+.cafe {
+    width: 640px;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    height: 425.89px;
+}
+
+.our-story {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 40px;
+    color: black;
+    margin-top: 40px;
+    margin-left: 320px;
+}
+
+.our-story::after {
+    content: ' ';
+	width: 160px;
+	height: 4px;
+	background-color: red;
+	display: flex;
+}
+
+.main-text {
+    padding-top: 80px;
+    padding-left: 50px;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 20px;
+    
+}
+
+
+

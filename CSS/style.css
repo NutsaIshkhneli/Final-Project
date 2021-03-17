@@ -148,3 +148,147 @@ h1 {
 
 
 
+.contact-info {
+    display: flex;
+    width: 1280px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+.contact {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 40px;
+    color: black;
+}
+
+.contact::after {
+    content: ' ';
+	width: 130px;
+	height: 4px;
+	background-color: red;
+	display: flex;
+}
+
+
+.contact-boxes {
+    display: flex;
+    flex-direction:row;
+    width: 1280px;
+    margin-top: 40px;
+    justify-content:space-between;
+    
+}
+
+.Address {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+   
+}
+
+
+.Opening-hours {
+ margin-top: 40px;
+}
+
+.information {
+
+    color: black;
+    font-size: 25px;
+    font-family: 'Akaya Telivigala', cursive;
+    padding-bottom: 5px;  
+
+}
+
+.fa-phone-alt {
+    color: red;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.fa-map-marker-alt {
+    color: red;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.fa-door-open {
+    color: red;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.contact-p {
+    font-family: 'Akaya Telivigala', cursive;
+
+}
+
+.feedback-info {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 40px;
+    color: black;
+    
+}
+    
+.feedback-info::after {
+    content: ' ';
+    width: 280px;
+    height: 4px;
+    background-color: red;
+    display: flex;
+    
+
+}
+
+
+.feedback-box {
+    display: flex;
+    flex-direction:column;
+    
+}
+
+
+.name {
+    width: 352px;
+    height: 60px;
+    background-color: white;
+    border-color: black;
+    font-family: 'Akaya Telivigala', cursive;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.email {
+    width: 352px;
+    height: 60px;
+    background-color: white;
+    border-color: black;
+    font-family: 'Akaya Telivigala', cursive;
+    margin-bottom: 10px;
+    
+}
+
+.message {
+    width: 352px;
+    height: 120px;
+    background-color: white;
+    border-color: black;
+    font-family: 'Akaya Telivigala', cursive;
+    margin-bottom: 10px;
+    
+}
+
+.send {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.send:hover {
+    background-color: red;
+
+}
+

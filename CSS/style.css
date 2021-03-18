@@ -188,6 +188,12 @@ h1 {
    
 }
 
+.phone-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 
 .Opening-hours {
  margin-top: 40px;
@@ -206,19 +212,21 @@ h1 {
     color: red;
     padding-bottom: 10px;
     padding-top: 10px;
+    padding-right: 10px;
 }
 
 .fa-map-marker-alt {
     color: red;
     padding-bottom: 10px;
     padding-top: 10px;
+    padding-right: 10px;
 }
 
-.fa-door-open {
+/* .fa-door-open {
     color: red;
     padding-bottom: 10px;
     padding-top: 10px;
-}
+} */
 
 .contact-p {
     font-family: 'Akaya Telivigala', cursive;

@@ -1,6 +1,6 @@
 .header-bg .header-wraper {
     display: flex;
-    justify-content: flex-end;
+    justify-content:flex-end;
     width: 1280px;
     position: fixed;
     
@@ -19,16 +19,19 @@
 }
 .nav-ul {
     display: flex;
-    
+
 }
+
 li {
     margin-right: 30px;
 }
 li a {
-    color: white;
+    color: #c9c6aa;
     font-family: 'Akaya Telivigala', cursive;
     font-size: 25px;
+    font-weight: bolder;
 }
+
 
 .satauri {
     display: flex;
@@ -294,6 +297,7 @@ h1 {
     height: 40px;
     background-color: white;
     font-family: 'Akaya Telivigala', cursive;
+    transition-delay: 0.3s;
 }
 
 .send:hover {

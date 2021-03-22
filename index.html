@@ -123,7 +123,7 @@
                        <input class="name"  placeholder="Name"><br>
                        <input class="email"  placeholder="Email"><br>
                        <input class="message" type="text" placeholder="feedback"><br><br>
-                       <input class="send" type="button" value="Send"><br>    
+                       <button id="send"> send  </button>
                                       
                   </div>
                </form>   
@@ -133,5 +133,13 @@
         </div>
 
     </section>
+
+     <script>
+         
+         document.getElementById('send').addEventListener('click', function(){
+             alert('Message was successfully sent')
+         })
+
+     </script>
 </body>
 </html>    

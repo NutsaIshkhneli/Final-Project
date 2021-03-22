@@ -267,7 +267,8 @@
 
 @media (max-width: 420px) {
     .main-text {
-        width: 200px;
+        width: 300px;
+        font-size: 20px;
         
     }
 }
@@ -280,7 +281,40 @@
     }
 }
 
+@media (max-width: 420px) {
+    .contact-info {
+        display: none;
+        
+    }
+}
+
+@media (max-width: 420px) {
+    .h1 {
+        font-size: 50px;
+        
+    }
+}
+
+@media (max-width: 420px) {
+    .satauri {
+        width: 200px;
+        
+    }
+}
+
+@media (max-width: 420px) {
+    .satauri2 {
+        width: 200px;
+        
+    }
+}
 
 
 
-
+@media (max-width: 420px) {
+    .header-bg {
+        width: 300px;
+        height: 300px;
+        
+    }
+}

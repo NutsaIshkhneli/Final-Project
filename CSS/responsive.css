@@ -1,88 +1,88 @@
-@media (max-width: 1300px) {
+@media (max-width: 1900px) {
     .header-bg {
         width: 100%;
     }
 }
 
 
-@media (max-width: 1100px) {
+/* @media (max-width: 1900px) {
     .header-wrapper{
-       width: 500px;
+       width: 1000px;
 
     }
-}
+} */
 
 
 
-@media (max-width: 1300px) {
+@media (max-width: 1900px) {
     .boxes {
         width: 100%;
     }
 }
 
 
-@media (max-width: 1300px) {
+@media (max-width: 1900px) {
     .about {
         width: 100%;
     }
 }
 
 
-@media (max-width: 1300px) {
+@media (max-width: 1900px) {
     .contact-boxes {
         width: 100%;
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1900px) {
     .h2 {
         width: 100%;
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1900px) {
     .contact-info {
         width: 100%;
     }
 }
 
 
+/*   1450 */
 
-
-@media (max-width: 1150px) {
+@media (max-width: 1450px) {
     .header-bg {
         width: 100%;
     }
 }
 
 
-@media (max-width: 1150px) {
+@media (max-width: 1450px) {
     .boxes {
         width: 100%;
     }
 }
 
 
-@media (max-width: 1150px) {
+@media (max-width: 1450px) {
     .about {
         width: 100%;
     }
 }
 
 
-@media (max-width: 1150px) {
+@media (max-width: 1450px) {
     .contact-boxes {
         width: 100%;
     }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1450px) {
     .h2 {
         width: 100%;
     }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1450px) {
     .contact-info {
         width: 100%;
     }

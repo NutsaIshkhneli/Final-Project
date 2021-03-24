@@ -5,6 +5,15 @@
 }
 
 
+@media (max-width: 1100px) {
+    .header-wrapper{
+       width: 500px;
+
+    }
+}
+
+
+
 @media (max-width: 1300px) {
     .boxes {
         width: 100%;
@@ -583,3 +592,17 @@
       color: white;
     }
 }
+
+
+
+/* 
+@media (max-width: 1200px) {
+    .navigation {
+        
+    }
+
+    .burger-icon {
+        display: block;
+    }
+} */
+

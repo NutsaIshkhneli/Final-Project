@@ -251,7 +251,7 @@
 
 
 
-@media (max-width: 420px) {
+ @media (max-width: 420px) {
     .box1 {
         width: 200px;
         height: 200px;
@@ -270,51 +270,259 @@
         width: 300px;
         font-size: 20px;
         
+    } 
+}
+
+
+@media (max-width: 420px) {
+    .section-1 {
+        width: 250px;
+        height: 800px;
     }
 }
 
 
 @media (max-width: 420px) {
-    .feedback-box {
+    .section-2 {
+        width: 250px;
+        height: 450px;
+    }
+}
+
+@media (max-width: 420px) {
+    .main-text {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 420px) {
+    .story {
+       width: 200px;
+    }
+}
+
+
+
+@media (max-width: 420px) {
+    .section-3 {
+        width: 250px;
+        height: 400px;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .Address {
+        width: 250px;
+    }
+}
+
+@media (max-width: 420px) {
+    .feedback-info {
         display: none;
-        
     }
 }
 
 @media (max-width: 420px) {
-    .contact-info {
-        display: none;
-        
+    .fields {
+       display: none;
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 520px) {
     .h1 {
-        font-size: 50px;
-        
+       font-size: 20px;
     }
 }
 
-@media (max-width: 420px) {
-    .satauri {
-        width: 200px;
-        
-    }
-}
-
-@media (max-width: 420px) {
-    .satauri2 {
-        width: 200px;
-        
-    }
-}
-
-
-
-@media (max-width: 420px) {
+@media (max-width: 520px) {
     .header-bg {
-        width: 300px;
-        height: 300px;
-        
+       height: 200px;
+    }
+}
+
+
+
+@media (max-width: 275px) {
+    .header-bg {
+       height: 150px;
+       width: 150px;
+    
+    }
+}
+
+@media (max-width: 275px) {
+    .h1 {
+       display: none;
+    
+    }
+}
+
+@media (max-width: 275px) {
+    .section-1{
+       height: 900px;
+       width: 150px;
+    
+    }
+}
+
+
+@media (max-width: 275px) {
+    .specials{
+      font-size: 15px;
+    
+    }
+}
+
+@media (max-width: 275px) {
+    .specials::after {
+        width: 80px;
+    }
+}
+
+
+@media (max-width: 275px) {
+    .section-2{
+       height: 400px;
+       width: 150px;
+    
+    }
+}
+
+@media (max-width: 275px) {
+    .section-3{
+       height: 400px;
+       width: 150px;
+    
+    }
+}
+
+@media (max-width: 275px) {
+    .Address {
+        width: 150px;
+    }
+}
+
+@media (max-width: 275px) {
+    .pasta {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 247px) {
+    .box1 {
+        width: 100px;
+        height: 100px;
+
+    }
+}
+
+@media (max-width: 247px) {
+    .pasta-text {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 275px) {
+    .section-1{
+       height: 550px;
+       width: 150px;
+    
+    }
+}
+
+@media (max-width: 275px) {
+    .cafe {
+       height: 100px;
+       width: 100px;
+    
+    }
+}
+
+@media (max-width: 275px) {
+    .section-2{
+       height: 350px;
+       width: 150px;
+    
+    }
+}
+
+
+
+@media (max-width: 275px) {
+    .story {
+       height: 100px;
+       width: 100px;
+    
+    }
+}
+
+@media (max-width: 275px) {
+    .main-text {
+       font-size: 8px;
+       width: 100px;
+       height: 100px;
+       
+      
+    }
+}
+
+@media (max-width: 275px) {
+    .contact {
+      font-size: 15px;
+    
+    }
+}
+
+@media (max-width: 275px) {
+    .contact::after {
+        width: 50px;
+    }
+}
+
+@media (max-width: 275px) {
+    .information {
+      font-size: 15px;
+    
+    }
+}
+
+@media (max-width: 275px) {
+    .phone-number {
+      width: 50px;
+    
+    }
+}
+
+@media (max-width: 275px) {
+    .contact-p {
+      width: 50px;
+      font-size: 15px;
+    
+    }
+}
+
+
+@media (max-width: 275px) {
+    .satauri {
+        display: none;
+    
+    }
+}
+
+@media (max-width: 275px) {
+    .satauri2 {
+        display: none;
+    
+    }
+}
+
+
+@media (max-width: 167px) {
+    .header-bg {
+        display: none;
     }
 }

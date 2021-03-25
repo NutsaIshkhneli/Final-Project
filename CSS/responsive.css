@@ -146,6 +146,11 @@
     }
     .burger-icon {
         display: flex;
+        color:  #c9c6aa;
+    }
+    .nav-flex {
+        width: 1550px;
+        
     }
 
     .h1 {
@@ -204,5 +209,167 @@
 }
 
 
-/* 620 */
+/* 720 */
+
+@media (max-width: 720px) {
+    .header-bg {
+        height: 350px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 720px) {
+    .section-1 {
+        width: 100%;
+        height: 900px;
+    }
+}
+
+@media (max-width: 720px) {
+    .section-2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 720px) {
+    .section-3 {
+        width: 100%;
+    }
+
+    .h2 {
+        width: 400px;
+    }
+    .specials {
+        font-size: 15px;
+    }
+    .specials::after{
+        width: 75px;
+    }
+}
+
+@media (max-width: 720px) {
+    .box1 {
+        width: 200px;
+        height: 100px;
+    }
+
+    .boxes {
+        width: 400px;
+        height: 650px;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .about {
+        width: 400px;
+        height: 500px;
+    }
+
+    .cafe {
+        width: 200px;
+        height: 200px;
+        padding-bottom: 10px;
+    }
+
+    .our-story {
+        font-size: 15px;
+    }
+    .our-story::after{
+        width: 75px;
+    }
+
+    .main-text {
+        width: 150px;
+        height: 100px;
+        font-size: 10px;
+        
+    }
+    .story {
+        width: 400px;
+        height: 650px;
+    }
+}
+
+
+
+@media (max-width: 720px) {
+    .contact {
+        font-size: 15px;
+    }
+    .contact::after{
+        width: 75px;
+    }
+
+}
+
+
+@media (max-width: 720px) {
+
+    .contact-info{
+        width: 150px;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .information{
+        font-size: 15px;
+    }
+    .phone-number {
+        font-size: 10px;
+    }
+    .contact-p {
+        font-size: 10px;
+    }
+    .map {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .feedback-box{
+        width: 400px;
+        height: 380px;
+    }
+}
+
+
+
+@media (max-width: 720px) {
+    .feedback-info {
+        font-size: 15px;
+        width: 150px;
+    }
+    .feedback-info::after{
+        width: 110px;
+    }
+    .fields {
+        width: 100px;
+        height: 300px;
+    }
+
+    .name {
+        width: 70px;
+        height: 30px;
+    }
+
+    .email {
+        width: 70px;
+        height: 30px;
+    }
+    .message {
+        width: 100px;
+        height: 40px;
+
+    }
+    #send {
+        width: 35px;
+        height: 30px;
+    }
+
+}
 

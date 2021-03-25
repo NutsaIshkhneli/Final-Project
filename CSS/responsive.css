@@ -251,12 +251,15 @@
 @media (max-width: 720px) {
     .box1 {
         width: 200px;
-        height: 100px;
+        height: 150px;
     }
 
     .boxes {
         width: 400px;
         height: 650px;
+    }
+    .pasta {
+        font-size: 15px;
     }
 }
 
@@ -371,5 +374,115 @@
         height: 30px;
     }
 
+}
+
+
+/* 520 */
+
+
+@media (max-width: 520px) {
+    .section-3 {
+      display: none;
+    }
+}
+
+
+@media (max-width: 520px) {
+    .section-1 {
+      width: 200px;
+    }
+    .h2 {
+        width: 200px;
+    }
+    .boxes {
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 520px) {
+    .about {
+      width: 200px;
+    }
+    .satauri {
+     display: none;
+        
+    }
+
+}
+
+
+@media (max-width: 420px) {
+    .nav-flex {
+        width: 1750px;  
+    }
+}
+
+/* 390 */
+
+
+@media (max-width: 300px) {
+    .nav-flex {
+        width: 1750px;  
+    }
+
+    .satauri2 {
+        display: none;
+    }
+}
+
+
+@media (max-width: 300px) {
+    .header-bg {
+       width: 200px;
+       height: 200px;
+    }
+    
+}
+
+
+@media (max-width: 390px) {
+    .section-2 {
+       display: none;
+    }
+}
+
+
+/* 220 */
+
+
+@media (max-width: 220px) {
+    .nav-flex {
+        width: 1850px;  
+    }
+    .header-bg {
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+
+@media (max-width: 220px) {
+   .section-1 {
+       width: 150px;
+   }
+
+    .boxes {
+        width: 100px;
+    
+    }
+
+    .box1 {
+        width: 100px;
+    }
+
+    .specials {
+        display: none;
+    }
+
+    .pasta-text {
+        display: none;
+    }
 }
 
